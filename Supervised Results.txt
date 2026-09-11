@@ -1,0 +1,60 @@
+--- exec:3.6.3:exec (default-cli) @ bdhotelbookings ---
+Instances: 12000
+Attributes: 29
+Class: is_canceled
+Canceled: 4529
+Not Canceled: 7471
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.github.fommil.jni.JniLoader in an unnamed module (file:/C:/Users/devpa/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Sep 11, 2026 3:32:30 PM com.github.fommil.netlib.ARPACK <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeSystemARPACK
+Sep 11, 2026 3:32:30 PM com.github.fommil.jni.JniLoader liberalLoad
+INFO: successfully loaded C:\Users\devpa\AppData\Local\Temp\jniloader13275622475965904943netlib-native_ref-win-x86_64.dll
+
+===== Random Forest =====
+Accuracy: 81.63%
+Precision: 0.8442
+Recall: 0.6295
+F1 Score: 0.7212
+ROC AUC: 0.8759
+Confusion Matrix
+    a    b   <-- classified as
+ 6945  526 |    a = 0
+ 1678 2851 |    b = 1
+
+
+===== J48 Decision Tree =====
+Accuracy: 81.59%
+Precision: 0.8077
+Recall: 0.6723
+F1 Score: 0.7338
+ROC AUC: 0.8444
+Confusion Matrix
+    a    b   <-- classified as
+ 6746  725 |    a = 0
+ 1484 3045 |    b = 1
+
+
+===== Naive Bayes =====
+Accuracy: 73.14%
+Precision: 0.6584
+Recall: 0.5992
+F1 Score: 0.6274
+ROC AUC: 0.7832
+Confusion Matrix
+    a    b   <-- classified as
+ 6063 1408 |    a = 0
+ 1815 2714 |    b = 1
+
+
+===== FINAL RESULT =====
+Best Model: Random Forest
+Best ROC AUC: 0.8759
+Model saved successfully
+Loaded Model: FilteredClassifier
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
