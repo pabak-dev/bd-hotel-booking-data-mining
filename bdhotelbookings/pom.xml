@@ -10,4 +10,11 @@
         <maven.compiler.release>26</maven.compiler.release>
         <exec.mainClass>com.mycompany.bdhotelbookings.Bdhotelbookings</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>nz.ac.waikato.cms.weka</groupId>
+            <artifactId>weka-stable</artifactId>
+            <version>3.8.7</version>
+        </dependency>
+    </dependencies>
 </project>
