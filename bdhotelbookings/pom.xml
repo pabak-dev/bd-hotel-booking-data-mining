@@ -8,7 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>26</maven.compiler.release>
-        <exec.mainClass>com.mycompany.bdhotelbookings.Bdhotelbookings</exec.mainClass>
+        <exec.mainClass>hotelbooking.Bdhotelbookings</exec.mainClass>
     </properties>
     <dependencies>
         <dependency>

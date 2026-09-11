@@ -59,9 +59,12 @@ public class SupervisedLearning {
                 notCanceled++;
             }
         }
+        
+        System.out.printf("Canceled: %d (%.2f%%)%n",
+        canceled, canceled * 100.0 / data.numInstances());
 
-        System.out.println("Canceled: " + canceled);
-        System.out.println("Not Canceled: " + notCanceled);
+        System.out.printf("Not Canceled: %d (%.2f%%)%n",
+        notCanceled, notCanceled * 100.0 / data.numInstances());
 
         Classifier[] classifiers = {
             new RandomForest(),

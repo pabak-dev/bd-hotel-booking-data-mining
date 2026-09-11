@@ -14,6 +14,13 @@ WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeSyst
 Sep 11, 2026 3:32:30 PM com.github.fommil.jni.JniLoader liberalLoad
 INFO: successfully loaded C:\Users\devpa\AppData\Local\Temp\jniloader13275622475965904943netlib-native_ref-win-x86_64.dll
 
+Running Supervised Learning...
+Instances: 12000
+Attributes: 29
+Class: is_canceled
+Canceled: 4529
+Not Canceled: 7471
+
 ===== Random Forest =====
 Accuracy: 81.63%
 Precision: 0.8442
